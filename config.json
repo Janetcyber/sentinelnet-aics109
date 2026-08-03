@@ -1,0 +1,21 @@
+{
+  "project": "SentinelNet AI Defense Fabric",
+  "course": "AICS-109",
+  "labels": [
+    "Benign",
+    "PortScan",
+    "DDoS",
+    "BruteForce",
+    "Exfiltration",
+    "C2Beacon"
+  ],
+  "response": {
+    "default_mode": "dry-run",
+    "allow_execute_only_for_lab_private_ranges": true
+  },
+  "thresholds": {
+    "high": 0.85,
+    "medium": 0.65,
+    "anomaly_reconstruction_percentile": 95
+  }
+}

@@ -1,0 +1,2 @@
+{"timestamp": "2026-07-03T10:00:01Z", "event_type": "alert", "src_ip": "10.10.1.50", "dest_ip": "10.10.1.10", "proto": "TCP", "alert": {"signature": "ET SCAN Possible Nmap User-Agent Observed", "severity": 2}}
+{"timestamp": "2026-07-03T10:02:33Z", "event_type": "alert", "src_ip": "10.10.3.22", "dest_ip": "203.0.113.55", "proto": "TCP", "alert": {"signature": "Possible C2 Beaconing Pattern", "severity": 1}}

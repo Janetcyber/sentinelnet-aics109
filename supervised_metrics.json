@@ -1,0 +1,129 @@
+{
+  "classes": [
+    "Benign",
+    "BruteForce",
+    "C2Beacon",
+    "DDoS",
+    "Exfiltration",
+    "PortScan"
+  ],
+  "macro_f1": 0.9993875979647692,
+  "weighted_f1": 0.999666716955155,
+  "classification_report": {
+    "Benign": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 1836.0
+    },
+    "BruteForce": {
+      "precision": 0.996031746031746,
+      "recall": 1.0,
+      "f1-score": 0.9980119284294234,
+      "support": 251.0
+    },
+    "C2Beacon": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 195.0
+    },
+    "DDoS": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 241.0
+    },
+    "Exfiltration": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 180.0
+    },
+    "PortScan": {
+      "precision": 1.0,
+      "recall": 0.9966329966329966,
+      "f1-score": 0.9983136593591906,
+      "support": 297.0
+    },
+    "accuracy": 0.9996666666666667,
+    "macro avg": {
+      "precision": 0.9993386243386243,
+      "recall": 0.999438832772166,
+      "f1-score": 0.9993875979647692,
+      "support": 3000.0
+    },
+    "weighted avg": {
+      "precision": 0.9996679894179894,
+      "recall": 0.9996666666666667,
+      "f1-score": 0.999666716955155,
+      "support": 3000.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      1836,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      251,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      195,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      241,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      180,
+      0
+    ],
+    [
+      0,
+      1,
+      0,
+      0,
+      0,
+      296
+    ]
+  ],
+  "features": [
+    "duration",
+    "packets",
+    "bytes_out",
+    "bytes_in",
+    "bytes_per_sec",
+    "packets_per_sec",
+    "outbound_ratio",
+    "unique_dst_ports_5m",
+    "failed_conn_5m",
+    "dns_entropy",
+    "beacon_score",
+    "burst_score",
+    "suricata_alert_count",
+    "asset_criticality"
+  ]
+}

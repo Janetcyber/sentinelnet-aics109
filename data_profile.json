@@ -1,0 +1,221 @@
+{
+  "rows": 12000,
+  "columns": [
+    "timestamp",
+    "src_ip",
+    "dst_ip",
+    "src_port",
+    "dst_port",
+    "proto",
+    "duration",
+    "packets",
+    "bytes_out",
+    "bytes_in",
+    "bytes_per_sec",
+    "packets_per_sec",
+    "outbound_ratio",
+    "unique_dst_ports_5m",
+    "failed_conn_5m",
+    "dns_entropy",
+    "beacon_score",
+    "burst_score",
+    "suricata_alert_count",
+    "tcp_state",
+    "asset_criticality",
+    "label"
+  ],
+  "label_counts": {
+    "Benign": 7342,
+    "PortScan": 1190,
+    "BruteForce": 1005,
+    "DDoS": 963,
+    "C2Beacon": 781,
+    "Exfiltration": 719
+  },
+  "missing_values": {
+    "timestamp": 0,
+    "src_ip": 0,
+    "dst_ip": 0,
+    "src_port": 0,
+    "dst_port": 0,
+    "proto": 0,
+    "duration": 0,
+    "packets": 0,
+    "bytes_out": 0,
+    "bytes_in": 0,
+    "bytes_per_sec": 0,
+    "packets_per_sec": 0,
+    "outbound_ratio": 0,
+    "unique_dst_ports_5m": 0,
+    "failed_conn_5m": 0,
+    "dns_entropy": 0,
+    "beacon_score": 0,
+    "burst_score": 0,
+    "suricata_alert_count": 0,
+    "tcp_state": 0,
+    "asset_criticality": 0,
+    "label": 0
+  },
+  "numeric_summary": {
+    "src_port": {
+      "count": 12000.0,
+      "mean": 32850.051,
+      "std": 18579.82,
+      "min": 1026.0,
+      "25%": 16594.25,
+      "50%": 32633.0,
+      "75%": 48946.75,
+      "max": 65000.0
+    },
+    "dst_port": {
+      "count": 12000.0,
+      "mean": 3865.872,
+      "std": 11222.584,
+      "min": 21.0,
+      "25%": 53.0,
+      "50%": 123.0,
+      "75%": 993.0,
+      "max": 65478.0
+    },
+    "duration": {
+      "count": 12000.0,
+      "mean": 27.665,
+      "std": 85.779,
+      "min": 0.01,
+      "25%": 1.432,
+      "50%": 4.133,
+      "75%": 11.783,
+      "max": 593.816
+    },
+    "packets": {
+      "count": 12000.0,
+      "mean": 508.131,
+      "std": 1346.522,
+      "min": 1.0,
+      "25%": 19.0,
+      "50%": 51.0,
+      "75%": 85.0,
+      "max": 7992.0
+    },
+    "bytes_out": {
+      "count": 12000.0,
+      "mean": 1375179.9,
+      "std": 5685005.029,
+      "min": 41.0,
+      "25%": 12231.5,
+      "50%": 46575.5,
+      "75%": 79414.75,
+      "max": 39788351.0
+    },
+    "bytes_in": {
+      "count": 12000.0,
+      "mean": 60338.453,
+      "std": 74003.812,
+      "min": 0.0,
+      "25%": 5278.75,
+      "50%": 39482.5,
+      "75%": 94045.25,
+      "max": 498639.0
+    },
+    "bytes_per_sec": {
+      "count": 12000.0,
+      "mean": 109077.452,
+      "std": 499268.952,
+      "min": 50.781,
+      "25%": 4823.998,
+      "50%": 17270.078,
+      "75%": 58090.902,
+      "max": 18724292.431
+    },
+    "packets_per_sec": {
+      "count": 12000.0,
+      "mean": 289.879,
+      "std": 1941.614,
+      "min": 0.073,
+      "25%": 3.668,
+      "50%": 8.543,
+      "75%": 24.431,
+      "max": 70229.075
+    },
+    "outbound_ratio": {
+      "count": 12000.0,
+      "mean": 0.543,
+      "std": 0.297,
+      "min": 0.002,
+      "25%": 0.306,
+      "50%": 0.507,
+      "75%": 0.804,
+      "max": 1.0
+    },
+    "unique_dst_ports_5m": {
+      "count": 12000.0,
+      "mean": 18.167,
+      "std": 53.343,
+      "min": 1.0,
+      "25%": 2.0,
+      "50%": 3.0,
+      "75%": 4.0,
+      "max": 300.0
+    },
+    "failed_conn_5m": {
+      "count": 12000.0,
+      "mean": 22.46,
+      "std": 67.494,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 2.0,
+      "max": 400.0
+    },
+    "dns_entropy": {
+      "count": 12000.0,
+      "mean": 4.188,
+      "std": 1.518,
+      "min": 2.001,
+      "25%": 3.031,
+      "50%": 3.889,
+      "75%": 5.046,
+      "max": 7.8
+    },
+    "beacon_score": {
+      "count": 12000.0,
+      "mean": 0.151,
+      "std": 0.199,
+      "min": 0.0,
+      "25%": 0.054,
+      "50%": 0.109,
+      "75%": 0.161,
+      "max": 0.99
+    },
+    "burst_score": {
+      "count": 12000.0,
+      "mean": 0.333,
+      "std": 0.214,
+      "min": 0.009,
+      "25%": 0.193,
+      "50%": 0.282,
+      "75%": 0.404,
+      "max": 1.0
+    },
+    "suricata_alert_count": {
+      "count": 12000.0,
+      "mean": 1.006,
+      "std": 1.741,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 2.0,
+      "max": 8.0
+    },
+    "asset_criticality": {
+      "count": 12000.0,
+      "mean": 2.814,
+      "std": 1.334,
+      "min": 1.0,
+      "25%": 2.0,
+      "50%": 2.0,
+      "75%": 4.0,
+      "max": 5.0
+    }
+  }
+}

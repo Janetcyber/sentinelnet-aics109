@@ -1,0 +1,45 @@
+{
+  "suricata_alerts": 2,
+  "zeek_connections": 2,
+  "fused_findings": 2,
+  "corroborated_findings": 2,
+  "findings": [
+    {
+      "src_ip": "10.10.3.22",
+      "dst_ip": "203.0.113.55",
+      "category": "beacon",
+      "fused_risk_score": 100,
+      "corroborated_by_zeek": true,
+      "mitre_tactic": "Command and Control",
+      "mitre_technique": "T1071 Application Layer Protocol",
+      "evidence": {
+        "suricata_signature": "Possible C2 Beaconing Pattern",
+        "suricata_severity": 1,
+        "zeek_dst_port": 443,
+        "zeek_duration": 1.8,
+        "zeek_orig_bytes": 900,
+        "zeek_resp_bytes": 2400,
+        "zeek_conn_state": "SF",
+        "external_destination": true
+      }
+    },
+    {
+      "src_ip": "10.10.1.50",
+      "dst_ip": "10.10.1.10",
+      "category": "scan",
+      "fused_risk_score": 75,
+      "corroborated_by_zeek": true,
+      "mitre_tactic": "Discovery",
+      "mitre_technique": "T1046 Network Service Discovery",
+      "evidence": {
+        "suricata_signature": "ET SCAN Possible Nmap User-Agent Observed",
+        "suricata_severity": 2,
+        "zeek_dst_port": 22,
+        "zeek_duration": 0.03,
+        "zeek_orig_bytes": 80,
+        "zeek_resp_bytes": 0,
+        "zeek_conn_state": "S0"
+      }
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "safety": "Dry-run by default. Do not execute on production networks.",
+  "actions": [
+    {
+      "src_ip": "10.10.5.108",
+      "dst_ip": "10.10.7.248",
+      "threat": "DDoS",
+      "risk_score": 100,
+      "recommended_action": "recommend_isolate_lab_host",
+      "mode": "dry-run",
+      "reason": "AI score + telemetry evidence + asset criticality. Human approval required."
+    },
+    {
+      "src_ip": "10.10.2.109",
+      "dst_ip": "10.10.6.47",
+      "threat": "DDoS",
+      "risk_score": 100,
+      "recommended_action": "recommend_isolate_lab_host",
+      "mode": "dry-run",
+      "reason": "AI score + telemetry evidence + asset criticality. Human approval required."
+    },
+    {
+      "src_ip": "10.10.5.139",
+      "dst_ip": "10.10.1.240",
+      "threat": "DDoS",
+      "risk_score": 100,
+      "recommended_action": "recommend_isolate_lab_host",
+      "mode": "dry-run",
+      "reason": "AI score + telemetry evidence + asset criticality. Human approval required."
+    },
+    {
+      "src_ip": "10.10.3.244",
+      "dst_ip": "10.10.7.119",
+      "threat": "DDoS",
+      "risk_score": 100,
+      "recommended_action": "recommend_isolate_lab_host",
+      "mode": "dry-run",
+      "reason": "AI score + telemetry evidence + asset criticality. Human approval required."
+    },
+    {
+      "src_ip": "10.10.1.197",
+      "dst_ip": "10.10.7.127",
+      "threat": "DDoS",
+      "risk_score": 100,
+      "recommended_action": "recommend_isolate_lab_host",
+      "mode": "dry-run",
+      "reason": "AI score + telemetry evidence + asset criticality. Human approval required."
+    },
+    {
+      "src_ip": "10.10.6.247",
+      "dst_ip": "10.10.8.17",
+      "threat": "DDoS",
+      "risk_score": 96,
+      "recommended_action": "recommend_isolate_lab_host",
+      "mode": "dry-run",
+      "reason": "AI score + telemetry evidence + asset criticality. Human approval required."
+    },
+    {
+      "src_ip": "10.10.4.244",
+      "dst_ip": "10.10.3.150",
+      "threat": "DDoS",
+      "risk_score": 92,
+      "recommended_action": "recommend_isolate_lab_host",
+      "mode": "dry-run",
+      "reason": "AI score + telemetry evidence + asset criticality. Human approval required."
+    },
+    {
+      "src_ip": "10.10.1.180",
+      "dst_ip": "10.10.6.4",
+      "threat": "DDoS",
+      "risk_score": 92,
+      "recommended_action": "recommend_isolate_lab_host",
+      "mode": "dry-run",
+      "reason": "AI score + telemetry evidence + asset criticality. Human approval required."
+    },
+    {
+      "src_ip": "10.10.7.139",
+      "dst_ip": "10.10.7.173",
+      "threat": "PortScan",
+      "risk_score": 88,
+      "recommended_action": "recommend_isolate_lab_host",
+      "mode": "dry-run",
+      "reason": "AI score + telemetry evidence + asset criticality. Human approval required."
+    },
+    {
+      "src_ip": "10.10.5.180",
+      "dst_ip": "10.10.2.203",
+      "threat": "PortScan",
+      "risk_score": 88,
+      "recommended_action": "recommend_isolate_lab_host",
+      "mode": "dry-run",
+      "reason": "AI score + telemetry evidence + asset criticality. Human approval required."
+    },
+    {
+      "src_ip": "10.10.3.44",
+      "dst_ip": "10.10.8.242",
+      "threat": "DDoS",
+      "risk_score": 88,
+      "recommended_action": "recommend_isolate_lab_host",
+      "mode": "dry-run",
+      "reason": "AI score + telemetry evidence + asset criticality. Human approval required."
+    },
+    {
+      "src_ip": "10.10.3.24",
+      "dst_ip": "10.10.2.57",
+      "threat": "DDoS",
+      "risk_score": 88,
+      "recommended_action": "recommend_isolate_lab_host",
+      "mode": "dry-run",
+      "reason": "AI score + telemetry evidence + asset criticality. Human approval required."
+    },
+    {
+      "src_ip": "10.10.2.91",
+      "dst_ip": "10.10.3.197",
+      "threat": "PortScan",
+      "risk_score": 88,
+      "recommended_action": "recommend_isolate_lab_host",
+      "mode": "dry-run",
+      "reason": "AI score + telemetry evidence + asset criticality. Human approval required."
+    },
+    {
+      "src_ip": "10.10.5.12",
+      "dst_ip": "203.0.113.173",
+      "threat": "Exfiltration",
+      "risk_score": 85,
+      "recommended_action": "recommend_isolate_lab_host",
+      "mode": "dry-run",
+      "reason": "AI score + telemetry evidence + asset criticality. Human approval required."
+    },
+    {
+      "src_ip": "10.10.8.233",
+      "dst_ip": "10.10.5.153",
+      "threat": "DDoS",
+      "risk_score": 84,
+      "recommended_action": "escalate_to_tier2",
+      "mode": "dry-run",
+      "reason": "AI score + telemetry evidence + asset criticality. Human approval required."
+    },
+    {
+      "src_ip": "10.10.1.207",
+      "dst_ip": "10.10.4.194",
+      "threat": "DDoS",
+      "risk_score": 84,
+      "recommended_action": "escalate_to_tier2",
+      "mode": "dry-run",
+      "reason": "AI score + telemetry evidence + asset criticality. Human approval required."
+    },
+    {
+      "src_ip": "10.10.2.23",
+      "dst_ip": "10.10.1.24",
+      "threat": "PortScan",
+      "risk_score": 84,
+      "recommended_action": "escalate_to_tier2",
+      "mode": "dry-run",
+      "reason": "AI score + telemetry evidence + asset criticality. Human approval required."
+    },
+    {
+      "src_ip": "10.10.2.239",
+      "dst_ip": "10.10.7.54",
+      "threat": "PortScan",
+      "risk_score": 84,
+      "recommended_action": "escalate_to_tier2",
+      "mode": "dry-run",
+      "reason": "AI score + telemetry evidence + asset criticality. Human approval required."
+    },
+    {
+      "src_ip": "10.10.2.76",
+      "dst_ip": "10.10.2.33",
+      "threat": "DDoS",
+      "risk_score": 84,
+      "recommended_action": "escalate_to_tier2",
+      "mode": "dry-run",
+      "reason": "AI score + telemetry evidence + asset criticality. Human approval required."
+    },
+    {
+      "src_ip": "10.10.5.196",
+      "dst_ip": "203.0.113.70",
+      "threat": "C2Beacon",
+      "risk_score": 81,
+      "recommended_action": "escalate_to_tier2",
+      "mode": "dry-run",
+      "reason": "AI score + telemetry evidence + asset criticality. Human approval required."
+    }
+  ]
+}

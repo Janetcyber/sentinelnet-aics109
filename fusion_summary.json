@@ -1,0 +1,186 @@
+{
+  "processed": 500,
+  "alerts": 136,
+  "top_alerts": [
+    {
+      "timestamp": "2026-08-03T09:48:21.107639",
+      "src_ip": "10.10.5.108",
+      "dst_ip": "10.10.7.248",
+      "predicted_threat": "DDoS",
+      "confidence": 0.6,
+      "risk_score": 100,
+      "mitre_tactic": "Impact",
+      "mitre_technique": "T1498 Network Denial of Service",
+      "evidence": {
+        "dst_port": 80,
+        "bytes_out": 1919213,
+        "packets_per_sec": 12092.0857,
+        "unique_dst_ports_5m": 3,
+        "failed_conn_5m": 2,
+        "beacon_score": 0.1075
+      }
+    },
+    {
+      "timestamp": "2026-08-03T09:51:46.107639",
+      "src_ip": "10.10.2.109",
+      "dst_ip": "10.10.6.47",
+      "predicted_threat": "DDoS",
+      "confidence": 0.6,
+      "risk_score": 100,
+      "mitre_tactic": "Impact",
+      "mitre_technique": "T1498 Network Denial of Service",
+      "evidence": {
+        "dst_port": 443,
+        "bytes_out": 803932,
+        "packets_per_sec": 1888.9757,
+        "unique_dst_ports_5m": 5,
+        "failed_conn_5m": 1,
+        "beacon_score": 0.1608
+      }
+    },
+    {
+      "timestamp": "2026-08-03T10:00:16.107639",
+      "src_ip": "10.10.5.139",
+      "dst_ip": "10.10.1.240",
+      "predicted_threat": "DDoS",
+      "confidence": 0.6,
+      "risk_score": 100,
+      "mitre_tactic": "Impact",
+      "mitre_technique": "T1498 Network Denial of Service",
+      "evidence": {
+        "dst_port": 53,
+        "bytes_out": 1495041,
+        "packets_per_sec": 1733.9503,
+        "unique_dst_ports_5m": 3,
+        "failed_conn_5m": 2,
+        "beacon_score": 0.0225
+      }
+    },
+    {
+      "timestamp": "2026-08-03T10:01:53.107639",
+      "src_ip": "10.10.3.244",
+      "dst_ip": "10.10.7.119",
+      "predicted_threat": "DDoS",
+      "confidence": 0.6,
+      "risk_score": 100,
+      "mitre_tactic": "Impact",
+      "mitre_technique": "T1498 Network Denial of Service",
+      "evidence": {
+        "dst_port": 80,
+        "bytes_out": 594497,
+        "packets_per_sec": 1781.9101,
+        "unique_dst_ports_5m": 2,
+        "failed_conn_5m": 2,
+        "beacon_score": 0.1407
+      }
+    },
+    {
+      "timestamp": "2026-08-03T10:03:37.107639",
+      "src_ip": "10.10.1.197",
+      "dst_ip": "10.10.7.127",
+      "predicted_threat": "DDoS",
+      "confidence": 0.6,
+      "risk_score": 100,
+      "mitre_tactic": "Impact",
+      "mitre_technique": "T1498 Network Denial of Service",
+      "evidence": {
+        "dst_port": 53,
+        "bytes_out": 1991461,
+        "packets_per_sec": 1716.3398,
+        "unique_dst_ports_5m": 3,
+        "failed_conn_5m": 2,
+        "beacon_score": 0.0877
+      }
+    },
+    {
+      "timestamp": "2026-08-03T10:04:27.107639",
+      "src_ip": "10.10.6.247",
+      "dst_ip": "10.10.8.17",
+      "predicted_threat": "DDoS",
+      "confidence": 0.6,
+      "risk_score": 96,
+      "mitre_tactic": "Impact",
+      "mitre_technique": "T1498 Network Denial of Service",
+      "evidence": {
+        "dst_port": 80,
+        "bytes_out": 1027272,
+        "packets_per_sec": 33617.2248,
+        "unique_dst_ports_5m": 4,
+        "failed_conn_5m": 0,
+        "beacon_score": 0.1961
+      }
+    },
+    {
+      "timestamp": "2026-08-03T09:55:30.107639",
+      "src_ip": "10.10.4.244",
+      "dst_ip": "10.10.3.150",
+      "predicted_threat": "DDoS",
+      "confidence": 0.6,
+      "risk_score": 92,
+      "mitre_tactic": "Impact",
+      "mitre_technique": "T1498 Network Denial of Service",
+      "evidence": {
+        "dst_port": 53,
+        "bytes_out": 418884,
+        "packets_per_sec": 39243.2601,
+        "unique_dst_ports_5m": 5,
+        "failed_conn_5m": 2,
+        "beacon_score": 0.1291
+      }
+    },
+    {
+      "timestamp": "2026-08-03T09:58:11.107639",
+      "src_ip": "10.10.1.180",
+      "dst_ip": "10.10.6.4",
+      "predicted_threat": "DDoS",
+      "confidence": 0.6,
+      "risk_score": 92,
+      "mitre_tactic": "Impact",
+      "mitre_technique": "T1498 Network Denial of Service",
+      "evidence": {
+        "dst_port": 53,
+        "bytes_out": 1427154,
+        "packets_per_sec": 1886.1333,
+        "unique_dst_ports_5m": 5,
+        "failed_conn_5m": 3,
+        "beacon_score": 0.1355
+      }
+    },
+    {
+      "timestamp": "2026-08-03T09:55:54.107639",
+      "src_ip": "10.10.7.139",
+      "dst_ip": "10.10.7.173",
+      "predicted_threat": "PortScan",
+      "confidence": 0.6,
+      "risk_score": 88,
+      "mitre_tactic": "Discovery",
+      "mitre_technique": "T1046 Network Service Discovery",
+      "evidence": {
+        "dst_port": 1601,
+        "bytes_out": 180,
+        "packets_per_sec": 2.5971,
+        "unique_dst_ports_5m": 85,
+        "failed_conn_5m": 40,
+        "beacon_score": 0.16
+      }
+    },
+    {
+      "timestamp": "2026-08-03T09:57:10.107639",
+      "src_ip": "10.10.5.180",
+      "dst_ip": "10.10.2.203",
+      "predicted_threat": "PortScan",
+      "confidence": 0.6,
+      "risk_score": 88,
+      "mitre_tactic": "Discovery",
+      "mitre_technique": "T1046 Network Service Discovery",
+      "evidence": {
+        "dst_port": 30439,
+        "bytes_out": 377,
+        "packets_per_sec": 14.3092,
+        "unique_dst_ports_5m": 101,
+        "failed_conn_5m": 39,
+        "beacon_score": 0.0307
+      }
+    }
+  ]
+}
